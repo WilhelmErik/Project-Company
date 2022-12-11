@@ -1,0 +1,232 @@
+html {
+  overflow-y: scroll;
+}
+
+html body {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+nav div {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.titele {
+  text-align: center;
+  color: rgb(27, 17, 17);
+}
+
+.title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: auto;
+}
+
+.bilden {
+  height: 100%;
+  width: 100%;
+}
+
+.wrappy {
+  background-color: rgb(90, 71, 71);
+}
+.wrappy .title {
+  color: rgb(234, 233, 240);
+}
+
+select {
+  flex-basis: 600px;
+  width: 700px;
+}
+
+.kolera > div {
+  border: rgba(223, 223, 226, 0.0666666667) groove 1px;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 5%;
+  margin: 2%;
+  justify-content: center;
+}
+.kolera > div .content {
+  margin-bottom: 11rem;
+}
+.kolera > div .content button {
+  margin: 2px;
+  width: 100%;
+}
+.kolera > div .content .buy {
+  color: white;
+  background-color: rgba(42, 8, 86, 0.807);
+}
+.kolera > div .content .buy:hover {
+  background-color: rgba(87, 20, 174, 0.807);
+}
+.kolera > div .content .dropdown-content {
+  text-align: left;
+}
+.kolera > div div {
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.kolera > div div div {
+  border: none;
+}
+.kolera > div p {
+  font-weight: 900;
+  color: black;
+}
+.kolera > div .title {
+  font-weight: 500;
+  color: rgb(18, 11, 27);
+}
+.kolera > div .subtitle {
+  font-weight: 400;
+  color: rgb(83, 83, 84);
+}
+.kolera.produkter .title {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+.kolera.produkter div.content {
+  justify-content: start;
+  text-align: left;
+}
+.kolera.produkter div.content title {
+  text-align: left;
+}
+
+.wrappy.about,
+.producter,
+.referenser,
+.kontakt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: rgba(74, 68, 68, 0.636);
+  background: linear-gradient(to top, rgba(45, 39, 74, 0.7294117647), rgba(47, 33, 56, 0.8)), url(/media/3.jpg) center center;
+}
+.producter {
+  background: linear-gradient(to top, rgba(45, 39, 74, 0.7294117647), rgba(47, 33, 56, 0.8)), url(/media/6.jpg) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.referenser {
+  background: linear-gradient(to top, rgba(45, 39, 74, 0.7294117647), rgba(47, 33, 56, 0.8)), url(/media/2.jpg) center center;
+  background-size: cover;
+}
+
+.kontakt {
+  background: linear-gradient(to top, rgba(45, 39, 74, 0.7294117647), rgba(47, 33, 56, 0.8)), url(/media/20220923_155326.jpg) center center;
+  background-size: cover;
+}
+
+.navbar-menu .navbar-item {
+  margin: auto;
+}
+
+section.kontakta {
+  display: flex;
+  border: rgb(124, 8, 8) 4px dotted;
+  justify-content: center;
+}
+section.kontakta div.orkar-inte {
+  width: 100%;
+  max-width: 600px;
+  border: green 5px dotted;
+}
+
+div.referens {
+  gap: 5%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div.referens div.objekt {
+  z-index: 1;
+  background-color: rgb(194, 192, 192);
+  margin-bottom: 2%;
+  max-width: 1280px;
+  min-height: 200px;
+}
+div.referens div.objekt .review-person p {
+  width: 50%;
+  display: inline;
+  margin: auto;
+}
+div.referens div.objekt .user-message {
+  background-color: rgb(227, 227, 227);
+  min-height: 50px;
+  text-align: left;
+}
+div.referens p {
+  color: black;
+}
+
+.testar {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  color: aquamarine;
+  position: absolute;
+  align-self: center;
+  background: rgba(5, 5, 5, 0.625);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.testar .start-stuff {
+  margin: auto;
+  margin-top: 400px;
+  max-width: 500px;
+  text-align: center;
+}
+
+footer {
+  z-index: 333;
+  background-color: rgb(70, 69, 69);
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+footer a {
+  color: aliceblue;
+}
+
+nav .navbar-burger {
+  margin-top: 10px;
+  border: rgba(0, 0, 0, 0.047) 1px;
+  border-style: groove;
+  border-radius: 1px;
+  height: 66px;
+  width: 66px;
+}
+nav .navbar-burger span {
+  height: 2px;
+  width: 30px;
+}
+nav .navbar-item img {
+  max-height: 5rem;
+}
+
+p.rofl {
+  color: black;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+}
+
+.spacer {
+  height: 300px;
+}
+.spacer .title {
+  text-align: left;
+}/*# sourceMappingURL=style.css.map */
