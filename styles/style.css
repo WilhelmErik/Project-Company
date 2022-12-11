@@ -109,10 +109,10 @@ select {
   align-items: center;
   height: 500px;
   background-color: rgba(74, 68, 68, 0.636);
-  background: linear-gradient(to top, rgba(45, 39, 74, 0.7294117647), rgba(47, 33, 56, 0.8)), url(/media/3.jpg) center center;
+  background: linear-gradient(to top, rgba(45, 39, 74, 0.7294117647), rgba(47, 33, 56, 0.8)), url(./media/3.jpg) center center;
 }
 .producter {
-  background: linear-gradient(to top, rgba(45, 39, 74, 0.7294117647), rgba(47, 33, 56, 0.8)), url(/media/6.jpg) center center;
+  background: linear-gradient(to top, rgba(45, 39, 74, 0.7294117647), rgba(47, 33, 56, 0.8)), url(./media/6.jpg) center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -123,7 +123,7 @@ select {
 }
 
 .kontakt {
-  background: linear-gradient(to top, rgba(45, 39, 74, 0.7294117647), rgba(47, 33, 56, 0.8)), url(/media/20220923_155326.jpg) center center;
+  background: linear-gradient(to top, rgba(45, 39, 74, 0.7294117647), rgba(47, 33, 56, 0.8)), url(./media/20220923_155326.jpg) center center;
   background-size: cover;
 }
 
