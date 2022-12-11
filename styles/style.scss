@@ -344,7 +344,10 @@ div.referens {
 }
 
 
-
+.current-page {
+    text-decoration: underline;
+    text-shadow: 1px 1px rgba(130, 56, 250, 0.234);
+}
 
 
 .testar {
@@ -378,9 +381,8 @@ div.referens {
 
     }
 
-
-
 }
+
 // nav.navbar {
 //     position: fixed;
 //     width: 100%;
@@ -398,6 +400,7 @@ footer {
 
     }
 }
+
 nav {
     .navbar-burger {
         margin-top: 10px;

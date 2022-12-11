@@ -168,6 +168,11 @@ div.referens p {
   color: black;
 }
 
+.current-page {
+  text-decoration: underline;
+  text-shadow: 1px 1px rgba(130, 56, 250, 0.234);
+}
+
 .testar {
   text-align: center;
   height: 100%;

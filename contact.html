@@ -8,6 +8,7 @@
     <title>Skiffer FotN</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
     <link rel="stylesheet" href="./styles/style.css">
 </head>
@@ -47,8 +48,7 @@
                 <a class="navbar-item" href="references.html">
                     Referenser
                 </a>
-                <a class="navbar-item" href="contact.html"
-                    style="text-decoration: underline; text-shadow: 1px  1px rgba(130, 56, 250, 0.234);">
+                <a class="navbar-item current-page " href="contact.html">
                     Kontakt
                 </a>
 
@@ -81,24 +81,24 @@
             <div class="field">
                 <label class="label">Email</label>
                 <div class="control has-icons-left has-icons-right">
-                    <input class="input " type="email" placeholder="Email input" value="">
+                    <input class="input " type="email" placeholder="Email " value="">
                     <span class="icon is-small is-left">
                         <i class="fas fa-envelope"></i>
                     </span>
-                    <span class="icon is-small is-right">
-                        <i class="fas fa-exclamation-triangle"></i>
-                    </span>
+
                 </div>
 
             </div>
 
             <div class="field">
-                <label class="label">Subject</label>
+                <label class="label">Ämne</label>
                 <div class="control">
                     <div class="select">
                         <select>
-                            <option>Välj ämne</option>
-                            <option>Inget</option>
+                            <option disabled selected>Välj ämne</option>
+                            <option>Köp av produkt</option>
+                            <option>Frågor om företaget</option>
+                            <option>Synpunkter på webbplats</option>
                         </select>
                     </div>
                 </div>
@@ -110,28 +110,6 @@
                     <textarea class="textarea" placeholder="Meddelande"></textarea>
                 </div>
             </div>
-            <!-- 
-            <div class="field">
-                <div class="control">
-                    <label class="checkbox">
-                        <input type="checkbox">
-                        I agree to the <a href="#">terms and conditions</a>
-                    </label>
-                </div>
-            </div> -->
-
-            <!-- <div class="field">
-                <div class="control">
-                    <label class="radio">
-                        <input type="radio" name="question">
-                        Yes
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="question">
-                        No
-                    </label>
-                </div>
-            </div> -->
 
             <div class="field is-grouped">
                 <div class="control">
