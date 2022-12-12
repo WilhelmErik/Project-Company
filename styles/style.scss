@@ -1,6 +1,6 @@
 $title-color: hsl(125, 49%, 55%);
 
-
+$burple :#2d274aba;
 
 
 // ::-webkit-scrollbar {
@@ -243,29 +243,46 @@ select {
     height: 500px;
     background-color: rgba(74, 68, 68, 0.636);
 
-    background: linear-gradient(to top, #2d274aba, #2f2138cc), url(./media/3.jpg) center center; // background: linear-gradient(to top, #2d274aba, #2f2138cc), url(media/4.jpg/?random=1) no-repeat top center;
+    // background: linear-gradient(to top, #2d274aba, #2f2138cc), url(./media/3.jpg) center center; // background: linear-gradient(to top, #2d274aba, #2f2138cc), url(media/4.jpg/?random=1) no-repeat top center;
 
     .title {}
 }
 
+.modal-content {
+    label {
+        color: white;
+    }
 
+}
 
 .producter {
-    background: linear-gradient(to top, #2d274aba, #2f2138cc), url(./media/6.jpg) center center;
+    background: linear-gradient(to top, #2d274aba, #2f2138cc),
+        url('../media/6.jpg') center center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
 .referenser {
-    background: linear-gradient(to top, #2d274aba, #2f2138cc), url(/media/2.jpg) center center;
+    background: linear-gradient(to top, #2d274aba, #2f2138cc), url(../media/2.jpg) center center;
     background-size: cover;
 }
 
 .kontakt {
-    background: linear-gradient(to top, #2d274aba, #2f2138cc), url(./media/20220923_155326.jpg) center center;
+    background: linear-gradient(to top, #2d274aba, #2f2138cc), url(../media/20220923_155326.jpg) center center;
     background-size: cover;
 }
+
+
+.about {
+    background: linear-gradient(to top, #2d274aba, #2f2138cc),
+        url('../media/6.jpg') center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 
 .navbar-menu {
     .navbar-item {
