@@ -6,37 +6,23 @@ $whajt :#fefefed6;
 $blak: #090909f6;
 
 
-// ::-webkit-scrollbar {
-//     width: 12px;
-//     background-color: rgba(236, 233, 233, 0.062);
-// }
+// background ??? -----------
+body {
+    background: linear-gradient(to right, rgba(60, 2, 177, 0.095), rgba(244, 151, 1, 0.1));
+}
 
-// ::-webkit-scrollbar-thumb {
-//     background: rgba(21, 16, 16, 0.89);
-// }
-
-
-
-
-
-// html {
-//     overflow-y: scroll;
+// html body {
+//     background-color: $whajt;
+//     margin: 0;
 // }
 
 
-.producter p {
+.wrappy {
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.119);
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.044);
 }
 
-html body {
-    background-color: rgb(255, 255, 255);
-    margin: 0;
-}
 
-nav div {
-    color: black;
-}
 
 h1 {
     text-align: center;
@@ -44,12 +30,12 @@ h1 {
 
 .titele {
     text-align: center;
-    color: rgb(27, 17, 17);
+    color: $blak;
 }
 
 .title {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: $whajt;
     margin: auto;
 }
 
@@ -59,11 +45,26 @@ h1 {
     width: 100%;
 }
 
+h1.title {
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p.title {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
 .wrappy {
-    background-color: rgb(90, 71, 71);
+
 
     .title {
-        color: rgb(234, 233, 240);
+        color: $whajt;
     }
 }
 
@@ -74,10 +75,6 @@ select {
 }
 
 
-// background ??? -----------
-body {
-    background: linear-gradient(to right, rgba(60, 2, 177, 0.095), rgba(244, 151, 1, 0.1));
-}
 
 
 .kolera {}
@@ -139,8 +136,6 @@ body {
 }
 
 .kolera.produkter {
-
-
 
     .title {
         text-align: left;
@@ -209,18 +204,17 @@ body {
     }
 }
 
-section.kontakta {
-    display: flex;
-    border: rgb(124, 8, 8) 4px dotted;
-    justify-content: center;
+// section.kontakta {
+//     display: flex;
+//     border: rgb(124, 8, 8) 4px dotted;
+//     justify-content: center;
 
-    div.orkar-inte {
-        width: 100%;
-        max-width: 600px;
-        border: green 5px dotted;
-    }
-}
-
+//     div.orkar-inte {
+//         width: 100%;
+//         max-width: 600px;
+//         border: green 5px dotted;
+//     }
+// }
 
 div.referens {
     display: flex;
@@ -251,75 +245,59 @@ div.referens {
         }
     }
 
-
-
 }
 
 
 .current-page {
-    text-decoration: underline;
+    text-decoration: underline $oransh;
     // text-shadow: 0.5px 0.5px $oransh;
 }
 
 .hejsan {
-
     text-align: center;
-
 }
 
+// .profile-p {
+//     width: 100%;
+// }
 
 .testar {
-
-    text-align: center;
     height: 100%;
     width: 100%;
     position: absolute;
-    align-self: center;
     margin-top: 1rem;
-
     background: rgba(5, 5, 5, 0.756);
     // box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(11px);
     -webkit-backdrop-filter: blur(2px);
-
-    border: 1px solid rgba(255, 255, 255, 0.18);
 
     .start-stuff {
         margin: auto;
         margin-top: 400px;
         max-width: 500px;
         text-align: center;
-
     }
-
 }
 
-// nav.navbar {
-//     position: fixed;
-//     width: 100%;
-// }
 footer {
 
     div {
         z-index: 333;
         background-color: $blak;
-
         color: white;
         text-align: center;
-
         width: 100%;
     }
 
-    a {
+    a,
+    li {
         color: $whajt;
-
     }
 }
 
 nav {
     .navbar-burger {
         margin-top: 10px;
-
         border: rgba(0, 0, 0, 0.047) 1px;
         border-style: groove;
         border-radius: 1px;
@@ -329,28 +307,22 @@ nav {
         span {
             height: 2px;
             width: 30px;
-
         }
     }
 
     .navbar-item img {
         max-height: 5rem;
     }
-
-
-
 }
 
 p.rofl {
     color: black;
 }
 
-
 video {
     height: 100%;
     width: 100%;
 }
-
 
 .spacer {
     height: 300px;
@@ -358,7 +330,6 @@ video {
     .title {
         text-align: left;
     }
-
 }
 
 .field.is-grouped {

@@ -1,15 +1,10 @@
-.producter p {
+body {
+  background: linear-gradient(to right, rgba(60, 2, 177, 0.095), rgba(244, 151, 1, 0.1));
+}
+
+.wrappy {
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgba(0, 0, 0, 0.119);
-}
-
-html body {
-  background-color: rgb(255, 255, 255);
-  margin: 0;
-}
-
-nav div {
-  color: black;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.044);
 }
 
 h1 {
@@ -18,12 +13,12 @@ h1 {
 
 .titele {
   text-align: center;
-  color: rgb(27, 17, 17);
+  color: rgba(9, 9, 9, 0.9647058824);
 }
 
 .title {
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgba(254, 254, 254, 0.8392156863);
   margin: auto;
 }
 
@@ -32,20 +27,25 @@ h1 {
   width: 100%;
 }
 
-.wrappy {
-  background-color: rgb(90, 71, 71);
+h1.title {
+  font-family: "Source Sans Pro", sans-serif;
 }
+
+p.title {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
 .wrappy .title {
-  color: rgb(234, 233, 240);
+  color: rgba(254, 254, 254, 0.8392156863);
 }
 
 select {
   flex-basis: 600px;
   width: 700px;
-}
-
-body {
-  background: linear-gradient(to right, rgba(60, 2, 177, 0.095), rgba(244, 151, 1, 0.1));
 }
 
 .kolera > div {
@@ -142,17 +142,6 @@ body {
   margin: auto;
 }
 
-section.kontakta {
-  display: flex;
-  border: rgb(124, 8, 8) 4px dotted;
-  justify-content: center;
-}
-section.kontakta div.orkar-inte {
-  width: 100%;
-  max-width: 600px;
-  border: green 5px dotted;
-}
-
 div.referens {
   display: flex;
   gap: 5%;
@@ -179,7 +168,8 @@ div.referens div.objekt .user-message {
 }
 
 .current-page {
-  text-decoration: underline;
+  -webkit-text-decoration: underline rgba(67, 36, 10, 0.8392156863);
+          text-decoration: underline rgba(67, 36, 10, 0.8392156863);
 }
 
 .hejsan {
@@ -187,16 +177,13 @@ div.referens div.objekt .user-message {
 }
 
 .testar {
-  text-align: center;
   height: 100%;
   width: 100%;
   position: absolute;
-  align-self: center;
   margin-top: 1rem;
   background: rgba(5, 5, 5, 0.756);
   backdrop-filter: blur(11px);
   -webkit-backdrop-filter: blur(2px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .testar .start-stuff {
   margin: auto;
@@ -212,7 +199,8 @@ footer div {
   text-align: center;
   width: 100%;
 }
-footer a {
+footer a,
+footer li {
   color: rgba(254, 254, 254, 0.8392156863);
 }
 
