@@ -1,5 +1,6 @@
-html {
-  overflow-y: scroll;
+.producter p {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.119);
 }
 
 html body {
@@ -76,10 +77,6 @@ select {
 .kolera > div div div {
   border: none;
 }
-.kolera > div p {
-  font-weight: 900;
-  color: black;
-}
 .kolera > div .title {
   font-weight: 500;
   color: rgb(18, 11, 27);
@@ -88,6 +85,7 @@ select {
   font-weight: 400;
   color: rgb(83, 83, 84);
 }
+
 .kolera.produkter .title {
   text-align: left;
   margin-bottom: 0.5rem;
@@ -115,18 +113,18 @@ select {
 }
 
 .producter {
-  background: linear-gradient(to top, rgba(45, 39, 74, 0.7294117647), rgba(47, 33, 56, 0.8)), url("../media/6.jpg") center center;
+  background: linear-gradient(to top, rgba(42, 36, 76, 0.8549019608), rgba(67, 36, 10, 0.8392156863)), url("../media/6.jpg") center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .referenser {
-  background: linear-gradient(to top, rgba(45, 39, 74, 0.7294117647), rgba(47, 33, 56, 0.8)), url(../media/2.jpg) center center;
+  background: linear-gradient(to top, rgba(42, 36, 76, 0.8549019608), rgba(67, 36, 10, 0.8392156863)), url(../media/2.jpg) center center;
   background-size: cover;
 }
 
 .kontakt {
-  background: linear-gradient(to top, rgba(45, 39, 74, 0.7294117647), rgba(47, 33, 56, 0.8)), url(../media/20220923_155326.jpg) center center;
+  background: linear-gradient(to top, rgba(42, 36, 76, 0.8549019608), rgba(67, 36, 10, 0.8392156863)), url(../media/kontor.jpg) center center;
   background-size: cover;
 }
 
@@ -152,6 +150,7 @@ section.kontakta div.orkar-inte {
 }
 
 div.referens {
+  display: flex;
   gap: 5%;
   flex-wrap: wrap;
   justify-content: center;
@@ -173,24 +172,24 @@ div.referens div.objekt .user-message {
   min-height: 50px;
   text-align: left;
 }
-div.referens p {
-  color: black;
-}
 
 .current-page {
   text-decoration: underline;
-  text-shadow: 1px 1px rgba(130, 56, 250, 0.234);
+}
+
+.hejsan {
+  text-align: center;
 }
 
 .testar {
   text-align: center;
   height: 100%;
   width: 100%;
-  color: aquamarine;
   position: absolute;
   align-self: center;
-  background: rgba(5, 5, 5, 0.625);
-  backdrop-filter: blur(2px);
+  margin-top: 1rem;
+  background: rgba(5, 5, 5, 0.756);
+  backdrop-filter: blur(11px);
   -webkit-backdrop-filter: blur(2px);
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
@@ -201,16 +200,15 @@ div.referens p {
   text-align: center;
 }
 
-footer {
+footer div {
   z-index: 333;
-  background-color: rgb(70, 69, 69);
+  background-color: rgba(9, 9, 9, 0.9647058824);
   color: white;
   text-align: center;
-  margin-top: 1rem;
   width: 100%;
 }
 footer a {
-  color: aliceblue;
+  color: rgba(254, 254, 254, 0.8392156863);
 }
 
 nav .navbar-burger {
@@ -243,4 +241,18 @@ video {
 }
 .spacer .title {
   text-align: left;
+}
+
+.field.is-grouped {
+  justify-content: center;
+}
+
+div.container.formen {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1408px), (min-width: 1200px) {
+  div.container.formen {
+    max-width: 700px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,9 @@
 $title-color: hsl(125, 49%, 55%);
 
-$burple :#2d274aba;
+$burple :#2a244cda;
+$oransh :#43240ad6;
+$whajt :#fefefed6;
+$blak: #090909f6;
 
 
 // ::-webkit-scrollbar {
@@ -12,35 +15,28 @@ $burple :#2d274aba;
 //     background: rgba(21, 16, 16, 0.89);
 // }
 
-html {
-    overflow-y: scroll;
 
-    // html.has-navbar-fixed-top {
-    //     padding-top: -6rem !important;
-    // }
 
+
+
+// html {
+//     overflow-y: scroll;
+// }
+
+
+.producter p {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.119);
 }
 
-
-
-
 html body {
-
     background-color: rgb(255, 255, 255);
     margin: 0;
-
-
-
-
-
 }
 
 nav div {
     color: black;
 }
-
-
-
 
 h1 {
     text-align: center;
@@ -51,43 +47,16 @@ h1 {
     color: rgb(27, 17, 17);
 }
 
-// a {
-//     text-decoration: none;
-//     color: rgb(218, 4, 4);
-// }
-
-// a.navbar-item {
-//     color: rgb(17, 15, 15);
-// }
-
 .title {
     text-align: center;
     color: rgb(255, 255, 255);
     margin: auto;
 }
 
-
-
 .bilden {
-    // height: 444px;
 
     height: 100%;
     width: 100%;
-
-
-    // background-color: rgba(74, 68, 68, 0.636);
-    // background: linear-gradient(to top, #3204fdba, #9907facc), url(https://picsum.photos/1280/853/?random=1) no-repeat top center;
-
-    // :before {
-    //     content: '';
-    //     position: absolute;
-    //     height: 100%;
-    //     width: 100%;
-
-    //     background: rgba(47, 40, 47, 0.2); //Change as per your requirement
-    // }
-
-
 }
 
 .wrappy {
@@ -99,31 +68,15 @@ h1 {
 }
 
 
-
-
-
 select {
-
     flex-basis: 600px;
     width: 700px;
 }
-
-
-
-
 
 .kolera>div {
     border: #dfdfe211 groove 1px;
     flex-wrap: wrap;
     display: flex;
-
-
-    // background: rgb(0, 0, 0);
-    // background: linear-gradient(170deg, rgba(0, 0, 0, 1) 0%, rgba(67, 43, 87, 1) 43%, rgba(196, 98, 98, 1) 97%);
-
-
-
-
     gap: 5%;
     margin: 2%;
     justify-content: center;
@@ -134,10 +87,6 @@ select {
         button {
             margin: 2px;
             width: 100%;
-
-
-
-
         }
 
         .buy {
@@ -155,38 +104,14 @@ select {
         }
     }
 
-
-
     div {
-
-        // background: rgba(255, 255, 255, 0.1);
-        // box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-        // backdrop-filter: blur(1.5px);
-        // -webkit-backdrop-filter: blur(1.5px);
-        // border-radius: 10px;
-        // border: 1px solid rgba(255, 255, 255, 0.18);
-
-
         border-radius: 20px;
-        // border: #4820a506 groove 1px;
         text-align: center;
         justify-content: center;
 
-        // background-color: rgba(236, 236, 236, 0.071);
-
         div {
-
             border: none;
         }
-    }
-
-
-
-
-
-    p {
-        font-weight: 900;
-        color: black;
     }
 
     .title {
@@ -198,19 +123,7 @@ select {
         font-weight: 400;
         color: rgb(83, 83, 84);
     }
-
-
-    img {
-
-        // width: 90%;
-
-    }
 }
-
-
-
-
-
 
 .kolera.produkter {
 
@@ -226,9 +139,7 @@ select {
         title {
             text-align: left;
         }
-
     }
-
 }
 
 
@@ -243,8 +154,6 @@ select {
     height: 500px;
     background-color: rgba(74, 68, 68, 0.636);
 
-    // background: linear-gradient(to top, #2d274aba, #2f2138cc), url(./media/3.jpg) center center; // background: linear-gradient(to top, #2d274aba, #2f2138cc), url(media/4.jpg/?random=1) no-repeat top center;
-
     .title {}
 }
 
@@ -252,11 +161,10 @@ select {
     label {
         color: white;
     }
-
 }
 
 .producter {
-    background: linear-gradient(to top, #2d274aba, #2f2138cc),
+    background: linear-gradient(to top, $burple , $oransh),
         url('../media/6.jpg') center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -264,15 +172,14 @@ select {
 }
 
 .referenser {
-    background: linear-gradient(to top, #2d274aba, #2f2138cc), url(../media/2.jpg) center center;
+    background: linear-gradient(to top, $burple , $oransh), url(../media/2.jpg) center center;
     background-size: cover;
 }
 
 .kontakt {
-    background: linear-gradient(to top, #2d274aba, #2f2138cc), url(../media/20220923_155326.jpg) center center;
+    background: linear-gradient(to top, $burple , $oransh), url(../media/kontor.jpg) center center;
     background-size: cover;
 }
-
 
 .about {
     background: linear-gradient(to top, #2d274aba, #2f2138cc),
@@ -281,47 +188,30 @@ select {
     background-size: cover;
 }
 
-
-
-
 .navbar-menu {
     .navbar-item {
         margin: auto;
     }
-
 }
 
 section.kontakta {
-
     display: flex;
     border: rgb(124, 8, 8) 4px dotted;
     justify-content: center;
 
-
-
     div.orkar-inte {
         width: 100%;
         max-width: 600px;
-
         border: green 5px dotted;
-
     }
-
 }
 
 
-
-
 div.referens {
-    // width: 100%;
-
-    // display: flex;
+    display: flex;
     gap: 5%;
     flex-wrap: wrap;
     justify-content: center;
-    // gap: 5%;
-    // justify-content: center;
-    // margin: 2rem;
 
     div.objekt {
         z-index: 1;
@@ -331,16 +221,10 @@ div.referens {
         min-height: 200px;
 
         .review-person {
-
-
-
             p {
-
                 width: 50%;
                 display: inline;
-
                 margin: auto;
-
             }
         }
 
@@ -349,21 +233,22 @@ div.referens {
             min-height: 50px;
             text-align: left;
         }
-
-
     }
 
-    p {
-        color: black;
 
-    }
 
 }
 
 
 .current-page {
     text-decoration: underline;
-    text-shadow: 1px 1px rgba(130, 56, 250, 0.234);
+    // text-shadow: 0.5px 0.5px $oransh;
+}
+
+.hejsan {
+
+    text-align: center;
+
 }
 
 
@@ -372,20 +257,13 @@ div.referens {
     text-align: center;
     height: 100%;
     width: 100%;
-    // padding: 2rem;
-    color: aquamarine;
     position: absolute;
-
-
-
-    // max-width: fit-content;
-    // height: %;
     align-self: center;
+    margin-top: 1rem;
 
-
-    background: rgba(5, 5, 5, 0.625);
+    background: rgba(5, 5, 5, 0.756);
     // box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(11px);
     -webkit-backdrop-filter: blur(2px);
 
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -405,15 +283,19 @@ div.referens {
 //     width: 100%;
 // }
 footer {
-    z-index: 333;
-    background-color: rgb(70, 69, 69);
-    color: white;
-    text-align: center;
-    margin-top: 1rem;
-    width: 100%;
+
+    div {
+        z-index: 333;
+        background-color: $blak;
+
+        color: white;
+        text-align: center;
+
+        width: 100%;
+    }
 
     a {
-        color: aliceblue;
+        color: $whajt;
 
     }
 }
@@ -463,10 +345,23 @@ video {
 
 }
 
+.field.is-grouped {
+    justify-content: center;
+}
 
-@media screen and (min-width: 769px),
-(max-width: 1024px) {
+div.container.formen {
+    margin-bottom: 1rem;
+}
+
+
+
+@media screen and (min-width: 1408px),
+(min-width: 1200px) {
     .kolera div {}
+
+    div.container.formen {
+        max-width: 700px;
+    }
 
 
 
