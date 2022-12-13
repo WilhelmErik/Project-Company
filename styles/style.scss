@@ -73,6 +73,17 @@ select {
     width: 700px;
 }
 
+
+// background ??? -----------
+body {
+    background: linear-gradient(to right, rgba(60, 2, 177, 0.095), rgba(244, 151, 1, 0.1));
+}
+
+
+.kolera {}
+
+//  -----------
+
 .kolera>div {
     border: #dfdfe211 groove 1px;
     flex-wrap: wrap;
@@ -80,6 +91,8 @@ select {
     gap: 5%;
     margin: 2%;
     justify-content: center;
+
+
 
     .content {
         margin-bottom: 11rem;
@@ -126,6 +139,8 @@ select {
 }
 
 .kolera.produkter {
+
+
 
     .title {
         text-align: left;
@@ -216,7 +231,8 @@ div.referens {
     div.objekt {
         z-index: 1;
         background-color: rgb(194, 192, 192);
-        margin-bottom: 2%;
+        margin-bottom: 1rem;
+        margin: 5px;
         max-width: 1280px;
         min-height: 200px;
 
